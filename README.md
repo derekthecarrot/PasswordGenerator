@@ -1,4 +1,4 @@
-# My Portfolio
+# Password Generator
 
 ## Description
 Hello, I built this password generator in order to seek improvement on my Javascript. My biggest challenge was finding out how to nest what function or what variables where and why. Another challenge I had was how to begin the code - I ended up just taking it step by step figuring out one portion at a time and stepping through the code.
