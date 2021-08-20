@@ -36,3 +36,21 @@ function generatePassword() {
     if (confirmSpecial) {
       characters += specialCharacters;
     }
+    
+    var charactersLength = characters.length;
+    for ( var i = 0; i < passwordLength; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * 
+      charactersLength));
+    }
+  } else if (passwordLength < 8) {
+    alert("Please pick a password that is atleast 8 characters")
+  } else if (passwordLength > 128) {
+    alert("Please pick a password that is less than 129 characters")
+  }
+
+  return result;
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
