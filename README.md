@@ -23,7 +23,7 @@ User will need to install and use within a web browser (EX: Google Chrome, Safar
 In order to use and open this project, please visit https://derekthecarrot.github.io/PasswordGenerator/ within any web browser.
 After that, if you click the generate password button - it will run a function that will bring up windows asking how long you want your password to be. It cannot be less than 8 characters and it cannot be more than 128. If you try those, it will not let you and send a prompt stating to choose one that meets the parameters. Once you choose one that meets the parameters - it will ask you if you want Uppercase, Numeric, Lowercase, or Special Characters. Depending on what you click - it will generate a password in the box with the series you have selected.
 
-![My Website](https://derekthecarrot.github.io/PasswordGenerator/Assets/images/screenshot.PNG)
+![My Website](https://derekthecarrot.github.io/PasswordGenerator/Assets/screenshot.PNG)
 
 ## Credits
 
