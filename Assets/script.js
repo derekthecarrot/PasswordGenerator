@@ -18,3 +18,21 @@ function generatePassword() {
   var numbers = "0123456789"
   var specialCharacters = "!@#$%^&*()/?|"
   var result = "";
+  
+  if (passwordLength >= 8 && passwordLength <= 128) {
+    var confirmUpper = confirm("Do you want Uppercase Letters?")
+    var confirmLower = confirm("Do you want Lowercase Letters?")
+    var confirmNumbers = confirm("Do you want number?")
+    var confirmSpecial = confirm("Do you want special characters?")
+    if (confirmUpper) {
+      characters += upperCase;
+    }
+    if (confirmLower) {
+      characters += lowerCase;
+    }
+    if (confirmNumbers) {
+      characters += numbers;
+    }
+    if (confirmSpecial) {
+      characters += specialCharacters;
+    }
