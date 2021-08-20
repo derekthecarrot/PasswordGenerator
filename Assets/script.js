@@ -16,7 +16,7 @@ function generatePassword() {
   var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   var lowerCase = "abcdefghijklmnopqrstuvwxyz"
   var numbers = "0123456789"
-  var specialCharacters = "!@#$%^&*()/?|"
+  var specialCharacters = "!@#$%^&*()/?|`~"
   var result = "";
   
   if (passwordLength >= 8 && passwordLength <= 128) {
